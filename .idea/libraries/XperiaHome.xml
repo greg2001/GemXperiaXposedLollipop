@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="XperiaHome">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/gemXperiaXposed/libs/XperiaHome.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

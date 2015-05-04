@@ -1,0 +1,2 @@
+include ':viewPageIndicator'
+include ':gemXperiaXposed'
