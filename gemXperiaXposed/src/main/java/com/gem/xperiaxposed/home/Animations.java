@@ -35,34 +35,23 @@ public class Animations implements Constants
   private ListTouchHelper mScrollController;
   private SpringDynamics mFlickDynamics;
   private boolean mFlickDynamicsRunning = false;
-  private boolean mExternalDynamics = false;
-  
+
 ////////////////////////////////////////////////////////////
   
   public Animations(PageViewGroup pageViewGroup)
   {
     thiz = pageViewGroup;
     mScrollController = getField(thiz, "mScrollController");
-    try
-    {
-      mFlickDynamics = getField(thiz, "mFlickDynamics");
-    }
-    catch(Throwable ex)
-    {
-      mFlickDynamics = new SpringDynamics(300, 1);
-      mFlickDynamics.setAtRestDistance(0.01f);
-      mExternalDynamics = true;
-    }
+    mFlickDynamics = new SpringDynamics(300, 1);
+    mFlickDynamics.setAtRestDistance(0.01f);
   }
 
 ////////////////////////////////////////////////////////////
   
   public void animate(boolean b, int animation)
   {
-    if(mExternalDynamics)
-      mFlickDynamics.setTarget(getFloatField(mScrollController, "mVelocity") * 1500000);
-    
-    if(!b && !mFlickDynamicsRunning && (animation == BLINKFEED)) 
+    mFlickDynamics.setTarget(getFloatField(mScrollController, "mVelocity") * 1500000);
+    if(!b && !mFlickDynamicsRunning && (animation == BLINKFEED))
     {
       mFlickDynamicsRunning = true;
       thiz.getScene().addTask(new Scheduler.Task()
