@@ -81,6 +81,7 @@ public class ExperimentalHooks extends AutoHook
   {
     List<Integer> targets = getField(thiz, "mTargets");
     targets.add(0, Ids.hide_drop_area);
+    targets.add(0, Ids.info_drop_area);
   }
   
   public void before_filterItemsIfNeeded(AppTraySorter thiz, List<Item> items, SortMode mode)

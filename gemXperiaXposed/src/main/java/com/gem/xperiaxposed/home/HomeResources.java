@@ -132,6 +132,7 @@ public class HomeResources
     {
       pres.setReplacement(Ids.home_apptray_dropzone_hide, res.fwd(R.drawable.home_apptray_dropzone_hide));
       pres.setReplacement(Ids.home_apptray_dropzone_unhide, res.fwd(R.drawable.home_apptray_dropzone_unhide));
+      pres.setReplacement(Ids.home_apptray_dropzone_info, res.fwd(R.drawable.home_apptray_dropzone_info));
       pres.setReplacement(Ids.app_tray_drawer_list_item_categories_hidden, res.fwd(R.string.app_tray_drawer_list_item_categories_hidden));
       pres.setReplacement(Ids.app_tray_drawer_list_item_categories_settings, res.fwd(R.string.app_tray_drawer_list_item_categories_settings));
       pres.setReplacement(Ids.drawer_icn_hidden, res.fwd(R.drawable.drawer_icn_hidden));

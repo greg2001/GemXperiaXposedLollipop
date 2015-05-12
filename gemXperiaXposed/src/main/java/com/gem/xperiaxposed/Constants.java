@@ -7,9 +7,10 @@ public interface Constants
   
   // packages
   public static final String[] SE_HOME =
-  { 
-    "com.sahaab.home", 
-    "com.sonyericsson.home.z1", 
+  {
+    "com.myaser.home",
+    "com.sahaab.home",
+    "com.sonyericsson.home.z1",
     "com.sonyericsson.home.z2", 
     "com.sonyericsson.home.z3", 
     "com.sonyericsson.home" 
