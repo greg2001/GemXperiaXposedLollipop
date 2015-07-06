@@ -1,111 +1,138 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_tray_drawer_list_item_categories_hidden">隱藏</string>
-  <string name="app_tray_drawer_list_item_categories_settings">GEM設定</string>
-  <string name="dialog_color_picker">顏色選擇器</string>
-  <string name="press_color_to_apply">選擇你要的顏色</string>
-  <string name="app_name">GEM Xperia</string>
-  <string name="app_list_loading">正在讀取應用程式，請稍候...</string>
-  <string name="action_settings">設定</string>
-  <string name="launcher">Xperia主頁設定</string>
-  <string name="restart_launcher">重新啟動主頁</string>
-  <string name="restart_launcher_summary">重新啟動主頁使設定生效(需要ROOT)。如果桌面停止，你可能需要重新啟動手機。</string>
-  <string name="launcher_experimental">實驗性功能</string>
-  <string name="enable_experimental">啟動實驗性功能</string>
-  <string name="fullscreen_layout">開啟全螢幕佈局</string>
-  <string name="fullscreen_layout_summary">使程序選單成4.4樣式，全屏模式。</string>
-  <string name="experimental_tutorial">教學</string>
-  <string name="settings_menu">增加GEM的設定選項</string>
-  <string name="alphabetical_badge">增加字母排序的數量</string>
-  <string name="hide_apps">隱藏不常用應用程式</string>
-  <string name="unread_count">增加未讀取提示</string>
-  <string name="tutorial_fullscreen_layout">全屏佈局</string>
-  <string name="launcher_general">一般設定</string>
-  <string name="launcher_icon_size">圖標尺寸</string>
-  <string name="launcher_label_text_size">圖標文字大小</string>
-  <string name="condensed_font">緊湊字體</string>
-  <string name="all_widgets_resizable">使所有的小工具可調整大小</string>
-  <string name="all_widgets_resizable_summary">使用此功能時，需要重新啟動Xperia主頁，設定才會生效。</string>
-  <string name="launcher_desktop">桌面設定</string>
-  <string name="transparent_desktop">透明化</string>
-  <string name="transparent_desktop_summary">使你的狀態欄與虛擬鍵透明。</string>
-  <string name="desktop_rows">改變行數</string>
-  <string name="desktop_columns">改變列數</string>
-  <string name="desktop_disable_labels">禁用標籤</string>
-  <string name="desktop_multiline_labels">多行標籤</string>
-  <string name="desktop_disable_pagination">禁用頁面指示</string>
-  <string name="desktop_autohide_pagination">自動隱藏頁面提示</string>
-  <string name="desktop_animation">滑動動畫</string>
-  <string name="launcher_dock">Dock工具列</string>
-  <string name="dock_columns">改變列數</string>
-  <string name="disable_dock_stage">隱藏托盤</string>
-  <string name="disable_dock_reflection">隱藏倒影</string>
-  <string name="large_dock_reflection">增強倒影</string>
-  <string name="launcher_folders">資料夾</string>
-  <string name="folder_columns">改變列數</string>
-  <string name="folder_disable_labels">@string/desktop_disable_labels</string>
-  <string name="folder_multiline_labels">多行標籤</string>
-  <string name="launcher_drawer">程序主頁</string>
-  <string name="transparent_drawer">透明化</string>
-  <string name="transparent_drawer_summary">使你的狀態欄與虛擬鍵透明。</string>
-  <string name="enable_drawer_background">背景顏色控制</string>
-  <string name="enable_drawer_background_summary">開啟主頁背景的顏色控制。</string>
-  <string name="drawer_background">背景顏色</string>
-  <string name="drawer_rows">改變行數</string>
-  <string name="drawer_columns">改變列數</string>
-  <string name="drawer_disable_labels">@string/desktop_disable_labels</string>
-  <string name="drawer_disable_pagination">@string/desktop_disable_pagination</string>
-  <string name="drawer_autohide_pagination">@string/desktop_autohide_pagination</string>
-  <string name="disable_drawer_backplate">隱藏主頁背景框</string>
-  <string name="remember_drawer_page">記住當前頁</string>
-  <string name="drawer_menu_opacity">程序選單透明度</string>
-  <string name="menu_dark_bars">滑動程序選單時使狀態欄不透明</string>
-  <string name="drawer_animation">@string/desktop_animation</string>
-  <string name="lockscreen">Xperia鎖屏介面設定</string>
-  <string name="reboot_phone_lockscreen">備註</string>
-  <string name="reboot_phone_summary_lockscreen">你需要重啟你的手機使設定生效。修改鎖屏介面有一定的風險，如果不幸的無限重啟的話，請進入Recovery，在手機內建記憶體內找到Xposed-Disabler-Recovery.zip刷入，即可移除XPOSED框架。</string>
-  <string name="transparent_lockscreen">透明狀態欄</string>
-  <string name="slide_before_unlock">滑動解鎖</string>
-  <string name="hide_widget_backplate">隱藏小工具背板</string>
-  <string name="hide_shortcuts">隱藏快捷方式圖標</string>
-  <string name="hide_hint_arrows">隱藏鎖屏提示箭頭</string>
-  <string name="hint_text">隱藏解鎖提示文字</string>
-  <string name="hint_text_summary">輸入空白默認隱藏解鎖提示文字。</string>
-  <string name="carrier_text">更改電信商提示文字</string>
-  <string name="hint_carrier_summary">輸入空白默認隱藏電信商提示文字。</string>
-  <string name="more_unlock_blinds">細百葉窗效果</string>
-  <string name="folder_disable_background_dim">關閉開啟資料夾時的主頁背景</string>
-  <string name="enable_standard_lockscreen">啟用原生Android鎖屏</string>
-  <string name="enable_standard_lockscreen_summary">可以使用動態鎖屏桌布，需要通過GravityBox設定。</string>
-  <string name="volume_keys_wake">使用音量鍵喚醒</string>
-  <string name="systemui">SystemUI設定</string>
-  <string name="systemui_colors">顏色</string>
-  <string name="restart_systemui">重新啟動SystemUI</string>
-  <string name="restart_systemui_summary">重新啟動SystemUI使設定生效(需要ROOT)。如果系統介面停止，你可能需要重新啟動手機。</string>
-  <string name="reset_to_default">恢復為預設值</string>
-  <string name="systemui_status_colors">狀態欄顏色</string>
-  <string name="systemui_status_color_set">顏色設定</string>
-  <string name="systemui_dark_background">更改黑色狀態欄顏色</string>
-  <string name="systemui_light_background">更改灰色狀態欄顏色</string>
-  <string name="systemui_translucent_background">更改透明狀態欄透明度</string>
-  <string name="systemui_nav_colors">虛擬鍵顏色</string>
-  <string name="systemui_nav_color_set">顏色設定</string>
-  <string name="systemui_same_nav_colors">與狀態欄一致</string>
-  <string name="systemui_nav_dark_background">更改黑色虛擬鍵顏色</string>
-  <string name="systemui_nav_light_background">更改灰色虛擬鍵顏色</string>
-  <string name="systemui_nav_translucent_background">更改透明狀態欄透明度</string>
-  <string name="systemui_appearance">外觀</string>
-  <string name="systemui_enable_appearance_customization">啟動自定義</string>
-  <string name="systemui_enable_appearance_customization_summary">需要重新啟動手機。</string>
-  <string name="systemui_global_settings">全局設定</string>
-  <string name="systemui_app_settings">應用程式設定</string>
-  <string name="systemui_app_settings_note">備註</string>
-  <string name="systemui_app_settings_note_summary">透明或是半透明的狀態欄僅適用於支持透明度的應用，例如Xperia主頁。</string>
-  <string name="systemui_app_color">SystemUI外觀</string>
-  <string name="systemui_app_rounded_corners">圓角</string>
-  <string name="about">關於</string>
-  <string name="about_app_summary">開發者:greg2001@XDA 點擊訪問XDA原文</string>
-  <string name="about_xposed">Xposed框架</string>
-  <string name="about_xposed_summary">開發者:rovo89@XDA 點擊訪問XDA原文</string>
-  <string name="about_theme">主題</string>
+
+    <!-- !!!!! don't translate _default strings !!!!! -->
+
+    <!-- Xperia Home -->
+    <string name="app_tray_drawer_list_item_categories_hidden">隱藏</string>
+    <string name="app_tray_drawer_list_item_categories_settings"GEM設置</string>
+    
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">顔色選擇器</string>
+    <string name="press_color_to_apply">選擇你要的顔色</string>
+    
+    <string name="app_name">GEM Xperia Xposed</string>
+    <string name="app_list_loading">正在載入應用程序，請等候...</string>
+    <string name="action_settings">設置</string>
+    
+    <string name="launcher">主頁設置</string>
+    <string name="restart_launcher">重新啟動桌面</string>
+    <string name="restart_launcher_summary">重新啟動桌面使更改生效（需要ROOT）</string>
+    
+    <string name="launcher_experimental">實驗性功能</string>
+    <string name="enable_experimental">啟用實驗性功能</string>
+    <string name="fullscreen_layout">啟用全屏幕布局</string>
+    <string name="fullscreen_layout_summary">允許桌面小部件在狀態欄下面</string>
+    <string name="experimental_tutorial">教程</string>
+    <string name="settings_menu">設置菜單項目</string>
+    <string name="alphabetical_badge">按字母順序排列</string>
+    <string name="hide_apps">隱藏應用程序</string>
+    <string name="unread_count">未讀取提示</string>
+    <string name="tutorial_fullscreen_layout">全屏布局</string>
+    
+    <string name="launcher_general">一般設置</string>
+    <string name="launcher_icon_size">圖標大小</string>
+    <string name="launcher_label_text_size">圖標文字大小</string>
+    <string name="condensed_font">緊湊字體</string>
+    <string name="all_widgets_resizable">允許所有小部件可調整大小</string>
+    <string name="all_widgets_resizable_summary">在調整索尼原廠小部件時您可能需要重新啟動桌面使其調整正確</string>
+    
+    <string name="launcher_desktop">桌面設置</string>
+    <string name="transparent_desktop">透明化</string>
+    <string name="transparent_desktop_summary">使狀態欄和虛擬鍵透明</string>
+    <string name="desktop_rows">改變行數</string>
+    <string name="desktop_columns">改變列數</string>
+    <string name="desktop_disable_labels">禁用標簽</string>
+    <string name="desktop_multiline_labels">多行標簽</string>
+    <string name="desktop_disable_pagination">禁用頁面指示</string>
+    <string name="desktop_autohide_pagination">自動隱藏頁面指示</string>
+    <string name="desktop_animation">滾動動畫</string>
+    
+    <string name="launcher_dock">托盤欄</string>
+    <string name="dock_columns">改變列數</string>
+    <string name="disable_dock_stage">隱藏托盤欄</string>
+    <string name="disable_dock_reflection">隱藏倒影</string>
+    <string name="large_dock_reflection">增強倒影</string>
+    
+    <string name="launcher_folders">文件夾</string>
+    <string name="folder_columns">列數</string>
+    <string name="folder_auto_close">自動關閉</string>
+    <string name="folder_disable_labels">@string/desktop_disable_labels</string>
+    <string name="folder_multiline_labels">@string/desktop_multiline_labels</string>
+    
+    <string name="launcher_drawer">程序列表界面</string>
+    <string name="transparent_drawer">透明化</string>
+    <string name="transparent_drawer_summary">使狀態欄和虛擬鍵透明</string>
+    <string name="enable_drawer_background">背景顔色控制</string>
+    <string name="enable_drawer_background_summary">啟用全屏幕布局和透明化效果更佳</string>
+    <string name="drawer_background">背景顔色</string>
+    <string name="drawer_rows">行數</string>
+    <string name="drawer_columns">列數</string>
+    <string name="drawer_disable_labels">@string/desktop_disable_labels</string>
+    <string name="drawer_disable_pagination">@string/desktop_disable_pagination</string>
+    <string name="drawer_autohide_pagination">@string/desktop_autohide_pagination</string>
+    <string name="disable_drawer_backplate">隱藏主頁背景框</string>
+    <string name="remember_drawer_page">請記住當前頁面</string>
+    <string name="drawer_menu_opacity">導航菜單透明度</string>
+    <string name="menu_dark_bars">導航菜單不透明</string>
+    <string name="drawer_animation">@string/desktop_animation</string>
+    
+    <string name="lockscreen">鎖屏界面設置</string>
+    <string name="reboot_phone_lockscreen">備注</string>
+    <string name="reboot_phone_summary_lockscreen">你需要重新啟動手機使其更改生效</string>
+    <string name="transparent_lockscreen">透明狀態欄</string>
+    <string name="slide_before_unlock">滑動解鎖</string>
+    <string name="hide_widget_backplate">隱藏小部件背板</string>
+    <string name="hide_shortcuts">隱藏快捷方式圖標</string>
+    <string name="hide_hint_arrows">隱藏鎖屏提示箭頭</string>
+    <string name="hint_text">隱藏解鎖提示文字</string>
+    <string name="hint_text_summary">不輸入內容默認顯示解鎖提示文字，輸入空格將會隱藏</string>
+    <string name="carrier_text">更改運營商文字</string>
+    <string name="hint_carrier_summary">不輸入內容默認顯示運營商文字，輸入空格將會隱藏</string>
+    <string name="more_unlock_blinds">細百葉窗效果</string>
+    <string name="folder_disable_background_dim">關閉開啟文件夾時的主頁背景</string>
+    <string name="enable_standard_lockscreen">啟用原生Android鎖屏</string>
+    <string name="enable_standard_lockscreen_summary">支持標准原生鎖屏動態壁紙</string>
+    <string name="volume_keys_wake">音量鍵喚醒</string>
+    
+    <string name="systemui">系統界面設置</string>
+    <string name="systemui_colors">顔色</string>
+    <string name="restart_systemui">重啟系統界面</string>
+    <string name="restart_systemui_summary">重啟系統界面使其更改生效（需要ROOT）</string>
+    <string name="reset_to_default">重設爲默認值</string>
+    
+    <string name="systemui_status_colors">狀態欄</string>
+    <string name="systemui_status_gradient">漸變</string>
+    <string name="systemui_status_gradient_summary">啟用根據KitKat-like的per-state漸變</string>
+    <string name="systemui_status_color_set">顔色設置</string>
+    <string name="systemui_dark_background">暗色</string>
+    <string name="systemui_light_background">亮色</string>
+    <string name="systemui_translucent_background">半透明</string>
+    
+    <string name="systemui_nav_colors">虛擬鍵</string>
+    <string name="systemui_nav_gradient">@string/systemui_status_gradient</string>
+    <string name="systemui_nav_gradient_summary">@string/systemui_status_gradient_summary</string>
+    <string name="systemui_nav_color_set">顔色設置</string>
+    <string name="systemui_same_nav_colors">與狀態欄相同</string>
+    <string name="systemui_nav_dark_background">暗色</string>
+    <string name="systemui_nav_light_background">亮色</string>
+    <string name="systemui_nav_translucent_background">半透明</string>
+    
+    <string name="systemui_appearance">外觀</string>
+    <string name="systemui_enable_appearance_customization">啟用自定義</string>
+    <string name="systemui_enable_appearance_customization_summary">需要重啟</string>
+    <string name="systemui_global_settings">全局設置</string>
+    <string name="systemui_app_settings">應用設置</string>
+
+    <string name="systemui_app_settings_note">注意</string>
+    <string name="systemui_app_settings_note_summary">透明或是半透明的狀態欄僅適用于支持透明度的應用，例如Xperia桌面</string>
+    <string name="systemui_app_color">系統界面外觀</string>
+    <string name="systemui_app_rounded_corners">圓角</string>
+    
+    <string name="about">關于</string>
+    <string name="about_app_summary">開發者:greg2001@XDA 點擊訪問XDA原文</string>
+    <string name="about_xposed">Xposed框架</string>
+    <string name="about_xposed_summary">開發者:rovo89@XDA 點擊訪問XDA原文</string>
+    <string name="about_theme">主題</string>
+  
 </resources>
