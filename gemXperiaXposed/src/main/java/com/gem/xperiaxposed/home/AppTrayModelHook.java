@@ -48,7 +48,7 @@ public class AppTrayModelHook extends ClassHook<AppTrayModel>
       item.setLocation((ItemLocation)callMethod(thiz, "getNewLocation"));
       prefs.edit().remove(item.getPackageName()).commit();
     }
-    thiz.updateModel(new ArrayList<Item>());
+    callMethod(thiz, "updateModel", new ArrayList<Item>());
     callMethod(thiz, "notifyAppTrayModelAppListener", thiz.getTotalNumberOfActivities(), thiz.getNumberOfDownloadedActivities(), thiz.getNumberOfWorkActivities());
   }
   
